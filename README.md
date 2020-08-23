@@ -1,6 +1,6 @@
 # MechaCar
 
-##For mechacarwriteup
+## For mechacarwriteup
 -Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 AWD, spoiler angle, and vehicle weight provides non-random amount of variance to mpg values. Ground clearance and vehicle length provides random amounts of variance.
 
@@ -16,7 +16,7 @@ However, there is more random variances with ground clearance and vehicle length
 
  
 ----------------------------------------------------------------------------
-##suspension coil test
+## Suspension coil test
 The mean of the suspension coil test is 1500 PSI and the median is 1500 PSI, and the standard deviation is 1.76. The Pr(>|t|) of Lot1 is 0.85, Lot2 is 0.80 and Lot3 is 0.56 which is above the significance level of 0.05 and 
 we cannot reject the null hypothesis. As a result, all manufacturing lots are statistically similar and the data is normally distributed.
 
@@ -35,7 +35,7 @@ and we would state that the data is normally distributed. Overall, the sample po
 
 
 ----------------------------------------------------------------------------
-##Design Your Own Study
+## Design Your Own Study
 
 To better understand the how the MechaCar compares to other cars in the market, we have to design a new study. In the new study, we will create a null hypothesis and an alternative hypothesis. 
 Our null hypothesis is that the MechaCar is the safest car in the market; whereas, our alternative hypothesis is that the MechaCar is not the safest car in the market. 

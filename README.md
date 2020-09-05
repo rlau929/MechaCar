@@ -14,6 +14,11 @@ The data is useful and could predict mpg of MechaCar prototypes effectively. For
 We cannot reject the null hypothesis with these three variables because it is significant to our data analysis. Additionally, the data is normally distributed. 
 However, there is more random variances with ground clearance and vehicle length and the Pr(>|t|) is below the significance value of 0.05. As a result, we can reject the null hypothesis for these two variables.
 
+## Multiple Linear Regression Written Analysis
+1. The two selected variables had p values < 0.05.
+2. The non-zero slope was because of the overall p value < 0 in the multiple regression model for the 5 variables.
+3. The model predicts efffectively because r = 0.70, meaning that about 70% predictions are correct.
+
  
 ----------------------------------------------------------------------------
 ## Suspension coil test
@@ -32,6 +37,8 @@ can safely assume that the suspension coil data meets the design specifications.
 From the t.test() function, our p-value is above our significance level of 0.74. Therefore, we do not have sufficient evidence to reject the null hypothesis, 
 and we would state that the data is normally distributed. Overall, the sample population is significantly similar to the mean population.
 
+## Summary stats including mead, median & variance etc.
+The median of the suspension coil test is 0.085, manufacturing_lot2 has standard deviation of 1.76 and pr(>|t|) is 0.80, and manufacturing_lot3 has standard deviation of 1.76 and pr(>|t|) is 0.56. Mean_psi is 1500, median is 1500, minimum is 1463, and maximum is 1536. The p-value is 0.57 
 
 
 ----------------------------------------------------------------------------
